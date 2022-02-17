@@ -1,0 +1,61 @@
+html,
+body {
+  display: inline-block;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.sideMenuContainer {
+  float: left;
+  height: 100%;
+  width: 18.2%;
+  background-color: #427c72;
+  color: white;
+}
+
+.contentContainer {
+  margin-left: 18.2%;
+  width: 81.8%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.menuNameBox {
+  height: 10%;
+  background-color: white;
+}
+
+.titleBox {
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  text-align: center;
+  font-weight: 800;
+}
+
+.line1 {
+  width: 80%;
+  padding-left: 10%;
+  background-color: #eeeeee;
+}
+
+.usernameBox {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  height: 40px;
+  line-height: 40px;
+  width: 80%;
+  padding-left: 10%;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.line2 {
+  width: 70%;
+  padding-left: 15%;
+  background-color: #eeeeee;
+}

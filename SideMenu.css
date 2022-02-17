@@ -1,0 +1,50 @@
+.menuBox {
+  height: 500px;
+  width: 100%;
+  padding-top: 3%;
+}
+
+.toggleMenu {
+  display: none;
+}
+
+.toggleMenu a {
+  padding-left: 12.5%;
+}
+.toggleMenu.active {
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px;
+  text-align: left;
+  line-height: 50px;
+  padding: none;
+  transition: 1s;
+}
+
+.toggleMenu.toggleMenu.active a:hover {
+  background-color: #346058;
+  transition: 1s;
+}
+
+.menuBox1 {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 900;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  transition: 1s;
+}
+
+.menuName {
+  padding-left: 10%;
+}
+
+.menuBox1:hover {
+  background-color: #346058;
+  transition: 1s;
+}
+
+i {
+  font-size: 20px;
+}
