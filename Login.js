@@ -7,10 +7,20 @@ const adminId = document.getElementById('idBox'),
 
 const USERNAME = "currentUser";
 
+function toLogin(){
+    let loginForm = document.querySelector(".loginContainer");
+    loginForm.classList.toggle("active");
+}
 
 function saveName(text){
-    localStorage.setItem(USERNAME, text);
-    history.go(0);
+    if(text.length > 0) {
+       localStorage.setItem(USERNAME, text);
+       toLogin();
+       history.go(0);
+    }
+    else{
+        alert('아이디와 비밀번호를 입력해주세요.');
+    }
 }
 
 function handleSubmit(event){
@@ -28,12 +38,15 @@ function paintGreeting(text){
     const logoutBtn = document.createElement("button");
     logoutBtn.id = 'logOutBtn';
     logoutBtn.innerText= "로그아웃";
-    adminName.innerText = `${text}님`;
-    adminName.appendChild(logoutBtn);
+
+    if(text.length > 0){
+        adminName.innerText = `${text}님`;
+        adminName.appendChild(logoutBtn);
+    }
+    
 }
 
-function logOut(){
-    
+function logOut(){  
     localStorage.removeItem(USERNAME);
     history.go(0);
     
