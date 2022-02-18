@@ -64,6 +64,7 @@ testCase.forEach(element => {
     const newData4 = newData.insertCell(3);
     const newData5 = newData.insertCell(4);
     const newData6 = newData.insertCell(5);
+    const newData7 = newData.insertCell(6);
 
     newData1.innerText = testCase[0].nickname;
     newData2.innerText = testCase[0].id;
@@ -71,6 +72,9 @@ testCase.forEach(element => {
     newData4.innerText = testCase[0].recentLogin;
     newData5.innerText = testCase[0].feed;
     newData6.innerText = testCase[0].firewoods;
+
+    const BUTTON = document.createElement('button');
+    newData7.appendChild(BUTTON);
 });
 
 TableArea.appendChild(clientTable);
