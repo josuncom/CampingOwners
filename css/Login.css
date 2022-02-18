@@ -56,3 +56,16 @@ input {
   background-color: #346058;
   transition: 1s;
 }
+
+#logOutBtn {
+  margin-left: 15px;
+  background-color: white;
+  color: #346058;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+#logOutBtn:hover {
+  background-color: #ddd9d9;
+  transition: 1s;
+}
