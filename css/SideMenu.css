@@ -11,6 +11,7 @@
 .toggleMenu a {
   padding-left: 12.5%;
 }
+
 .toggleMenu.active {
   display: grid;
   grid-template-rows: 50px 50px 50px 50px;
@@ -46,5 +47,18 @@
 }
 
 i {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#toLoginBtn {
+  margin-left: 15px;
+  background-color: white;
+  color: #346058;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+#toLoginBtn:hover {
+  background-color: #ddd9d9;
+  transition: 1s;
 }

@@ -1,4 +1,11 @@
+'use strict';
+
 function showMenu(){
     let show_menu = document.querySelector(".toggleMenu");
     show_menu.classList.toggle("active");
+}
+
+function toLogin(){
+    let loginForm = document.querySelector(".loginContainer");
+    loginForm.classList.toggle("active");
 }

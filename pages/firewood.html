@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Camping Owners</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/Login.css"/>
+    <link rel="stylesheet" href="../css/SideMenu.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+</head>
+<body>
+    <div class="sideMenuContainer">
+        <div class="titleBox">캠핑오너스</div>
+        <hr class="line1">
+        <div class="usernameBox">로그인해주세요.<button id="toLoginBtn" onclick="toLogin()";>로그인하기</button></div>
+        <hr class="line2">
+        <div class="menuBox">
+            <div class="menuBox1">
+                <div class="menuName"><i class="fas fa-circle"></i>&nbsp;메뉴명</div>
+                <div class="toggleBtn" onclick="showMenu();">
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+                <div class="toggleMenu">
+                    <a id="ClientInfo">고객 관리</a>
+                    <a id="CommunityInfo">커뮤니티 관리</a>
+                    <a id="firewood">장작 관리</a>
+                    <a id="firewoodExchange">장작 전환 신청 현황</a>
+                </div>
+        </div>
+    </div>
+    
+    <div class="contentContainer">
+        <div class="menuNameBox">
+            <div class="title">장작 관리</div>
+            </div>
+        
+        <div class="loginContainer">
+            <div class="loginTitle">LOGIN</div>
+
+            <div class="loginForm"> 
+                <input id="idBox" type="text" placeholder="ID"/> <br/>
+                <input id="passwordBox" type="text" placeholder="PASSWORD"/><br/>
+                <button id="loginBtn" onclick="toLogin()">로그인</button>
+            </div>
+        </div>
+        <h4 class="greetings"></h4>
+    </div>
+
+    
+</body>
+    <script src="../Login.js"></script>
+    <script src="../Routing.js"></script>
+    <script src="../SideMenu.js"></script>
+</html>

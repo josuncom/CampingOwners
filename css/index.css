@@ -25,6 +25,8 @@ body {
 .menuNameBox {
   height: 10%;
   background-color: white;
+  font-size: 25px;
+  vertical-align: middle;
 }
 
 .titleBox {
@@ -37,6 +39,10 @@ body {
   font-weight: 800;
 }
 
+.title {
+  line-height: 80px;
+  padding-left: 2%;
+}
 .line1 {
   width: 80%;
   padding-left: 10%;
