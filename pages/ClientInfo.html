@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/index.css"/>
     <link rel="stylesheet" href="../css/Login.css"/>
     <link rel="stylesheet" href="../css/SideMenu.css"/>
+    <link rel="stylesheet" href="../css/clientInfo.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
@@ -50,7 +51,12 @@
                 <button id="loginBtn" onclick="toLogin()">로그인</button>
             </div>
         </div>
-        <h4 class="greetings"></h4>
+        <div class="clientBox">
+            <div class="searchBar"></div>
+            <div class="clientList">
+                <h4 id="userCount"></h4>
+            </div>
+        </div>
     </div>
 
     
@@ -58,4 +64,5 @@
     <script src="../SideMenu.js"></script>
     <script src="../Login.js"></script>
     <script src="../Routing.js"></script>
+    <script src="../ClientInfo.js"></script>
 </html>
