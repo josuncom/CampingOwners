@@ -11,17 +11,20 @@ linker.forEach((element) => {
          });
         });
 
-     HomeLinker.addEventListener("click", (event) =>{
-        window.history.pushState(undefined,"",'/CampingOwners/pages/Home.html');
-        history.go(0);
-     })
+         HomeLinker.addEventListener("click", (event) =>{
+             window.history.pushState(undefined,"",'/CampingOwners/pages/Home.html');
+             history.go(0);
+         })
 
-     LOGIN_BTN.addEventListener("click", (event) => {
-        window.history.pushState(undefined,"",'/CampingOwners/pages/Login.html');
+         LOGIN_BTN.addEventListener("click", (event) => {
+             window.history.pushState(undefined,"",'/CampingOwners/pages/Login.html');
+             history.go(0);
     })
-
  }
 
+ window.onpopstate = () => {
+    history.go(0);
+ }
 
 
 
@@ -35,4 +38,4 @@ linker.forEach((element) => {
 // };
 
 // window.onpopstate = () =>
-// renderHTML(element, routes[window.location.pathname]);
+// renderHTML(element, routes[window.location.pathname])

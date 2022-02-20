@@ -1,12 +1,7 @@
 .hidden {
   display: none;
 }
-
 .loginContainer {
-  display: none;
-}
-
-.loginContainer.active {
   display: inline-block;
   margin-top: 10%;
   margin-left: 30%;
