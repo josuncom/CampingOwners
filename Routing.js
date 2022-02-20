@@ -1,7 +1,8 @@
 window.onload = () => {
 const linker = document.querySelectorAll("a");
 const HomeLinker = document.querySelector(".titleBox");
-const LOGIN_BTN = document.getElementById('toLoginBtn');
+const TO_LOGIN_BTN = document.getElementById('toLoginBtn');
+btn = document.getElementById('loginBtn');
 
 linker.forEach((element) => {
          element.addEventListener("click", (event) => {
@@ -16,7 +17,7 @@ linker.forEach((element) => {
              history.go(0);
          })
 
-         LOGIN_BTN.addEventListener("click", (event) => {
+         TO_LOGIN_BTN.addEventListener("click", (event) => {
              window.history.pushState(undefined,"",'/CampingOwners/pages/Login.html');
              history.go(0);
     })

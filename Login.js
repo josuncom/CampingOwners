@@ -3,14 +3,9 @@
 const adminId = document.getElementById('idBox'),
     adminPassword = document.getElementById('passwordBox'),
     adminName = document.querySelector(".usernameBox"),
-    btn = document.getElementById('loginBtn');
 
 const USERNAME = "currentUser";
 
-function toLogin(){
-    let loginForm = document.querySelector(".loginContainer");
-    loginForm.classList.toggle("active");
-}
 
 function saveName(text){
     if(text.length > 0) {
@@ -43,7 +38,6 @@ function paintGreeting(text){
         adminName.innerText = `${text}님`;
         adminName.appendChild(logoutBtn);
     }
-    
 }
 
 function logOut(){  
