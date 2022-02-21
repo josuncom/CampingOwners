@@ -3,8 +3,8 @@
 const adminId = document.getElementById('idBox'),
     adminPassword = document.getElementById('passwordBox'),
     adminName = document.querySelector(".usernameBox"),
-
-const USERNAME = "currentUser";
+    USERNAME = "currentUser",
+    btn = document.getElementById('loginBtn');
 
 
 function saveName(text){
@@ -43,7 +43,6 @@ function paintGreeting(text){
 function logOut(){  
     localStorage.removeItem(USERNAME);
     history.go(0);
-    
 }
 
 function a(){

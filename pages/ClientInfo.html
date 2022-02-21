@@ -19,7 +19,7 @@
     <div class="sideMenuContainer">
         <div class="titleBox">캠핑오너스</div>
         <hr class="line1">
-        <div class="usernameBox">로그인해주세요.<button id="toLoginBtn" onclick="toLogin()";>로그인하기</button></div>
+        <div class="usernameBox">로그인해주세요.<div id="toLoginBtn" onclick="toLogin()";>로그인하기</div></div>
         <hr class="line2">
         <div class="menuBox">
             <div class="menuBox1">
@@ -44,7 +44,9 @@
         
 
         <div class="clientBox">
-            <div class="searchBar"></div>
+            <div class="searchBar">
+                <input id="searchClient" onkeyup="filter();" placeholder="아이디 검색" type="text">
+            </div>
             <div class="clientList">
                 <h4 id="userCount"></h4>
             </div>

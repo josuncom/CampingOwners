@@ -2,7 +2,7 @@ window.onload = () => {
 const linker = document.querySelectorAll("a");
 const HomeLinker = document.querySelector(".titleBox");
 const TO_LOGIN_BTN = document.getElementById('toLoginBtn');
-btn = document.getElementById('loginBtn');
+const btn = document.getElementById('loginBtn');
 
 linker.forEach((element) => {
          element.addEventListener("click", (event) => {

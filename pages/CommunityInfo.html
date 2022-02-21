@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/index.css"/>
     <link rel="stylesheet" href="../css/Login.css"/>
     <link rel="stylesheet" href="../css/SideMenu.css"/>
+    <link rel="stylesheet" href="../css/Community.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
@@ -18,7 +19,7 @@
     <div class="sideMenuContainer">
         <div class="titleBox">캠핑오너스</div>
         <hr class="line1">
-        <div class="usernameBox">로그인해주세요.<button id="toLoginBtn" onclick="toLogin()";>로그인하기</button></div>
+        <div class="usernameBox">로그인해주세요.<div id="toLoginBtn" onclick="toLogin()";>로그인하기</div></div>
         <hr class="line2">
         <div class="menuBox">
             <div class="menuBox1">
@@ -40,7 +41,12 @@
         <div class="menuNameBox">
             <div class="title">커뮤니티 관리</div>
             </div>
-
+            <div class="communityBox">
+                <div class="searchBar"></div>
+                <div class="communityList">
+                    <h4 id="communityCount"></h4>
+                </div>
+            </div>
     </div>
 
     
@@ -48,4 +54,5 @@
     <script src="../SideMenu.js"></script>
     <script src="../Login.js"></script>
     <script src="../Routing.js"></script>
+    <script src="../Community.js"></script>
 </html>
