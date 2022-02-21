@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/Content.css"/>
     <link rel="stylesheet" href="../css/index.css"/>
     <link rel="stylesheet" href="../css/Login.css"/>
     <link rel="stylesheet" href="../css/SideMenu.css"/>
@@ -41,7 +40,15 @@
     <div class="contentContainer">
         <div class="menuNameBox">
             <div class="title">장작 전환 신청 현황</div>
+        </div>
+        <div class="clientBox">
+            <div class="searchBar">
+                <input id="searchClient" onkeyup="filter();" placeholder="아이디 검색" type="text">
             </div>
+            <div class="clientList">
+                <h4 id="userCount"></h4>
+            </div>
+        </div>
     </div>
 
     
@@ -49,4 +56,6 @@
     <script src="../Home.js"></script>
     <script src="../Login.js"></script>
     <script src="../Routing.js"></script>
+    <script src="../SideMenu.js"></script>
+    <script src="../Exchange.js"></script>
 </html>

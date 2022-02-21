@@ -1,0 +1,76 @@
+.clientBox {
+  background-color: #eeeeee;
+  display: grid;
+  grid-template-rows: 10% 80%;
+  row-gap: 5%;
+  height: 80%;
+  margin-top: 2.5%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.searchBar {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.clientList {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.clientList h4 {
+  margin-left: 2%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+table {
+  height: 80%;
+  width: 100%;
+  border: 1px;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+}
+
+th {
+  font-size: 13px;
+  color: #817e7e;
+  text-align: center;
+  border: 1px;
+  color: black;
+}
+
+tbody {
+  border: 1px;
+  color: black;
+}
+
+button {
+  background-color: #427c72;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+
+#searchClient {
+  height: 20%;
+  width: 10%;
+}
+
+#toLoginBtn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#toLoginBtn:hover {
+  background-color: #c7c2c2;
+}
