@@ -80,3 +80,14 @@ input {
 #toLoginBtn:hover {
   background-color: #c7c2c2;
 }
+
+.usernameBox {
+  display: flex;
+}
+
+#logOutBtn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}

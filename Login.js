@@ -30,7 +30,7 @@ function askForName(){
 }
 
 function paintGreeting(text){
-    const logoutBtn = document.createElement("button");
+    const logoutBtn = document.createElement('div');
     logoutBtn.id = 'logOutBtn';
     logoutBtn.innerText= "로그아웃";
 
