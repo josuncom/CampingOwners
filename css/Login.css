@@ -65,3 +65,18 @@ input {
   background-color: #ddd9d9;
   transition: 1s;
 }
+
+.usernameBox {
+  display: flex;
+}
+
+#toLoginBtn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#toLoginBtn:hover {
+  background-color: #c7c2c2;
+}

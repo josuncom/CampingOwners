@@ -29,6 +29,20 @@ body {
   vertical-align: middle;
 }
 
+.usernameBox {
+  display: flex;
+}
+
+#toLoginBtn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#toLoginBtn:hover {
+  background-color: #c7c2c2;
+}
 .titleBox {
   height: 50px;
   line-height: 50px;

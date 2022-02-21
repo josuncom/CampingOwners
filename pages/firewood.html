@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/index.css"/>
     <link rel="stylesheet" href="../css/Login.css"/>
     <link rel="stylesheet" href="../css/SideMenu.css"/>
+    <link rel="stylesheet" href="../css/firewood.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
@@ -18,7 +19,7 @@
     <div class="sideMenuContainer">
         <div class="titleBox">캠핑오너스</div>
         <hr class="line1">
-        <div class="usernameBox">로그인해주세요.<button id="toLoginBtn" onclick="toLogin()";>로그인하기</button></div>
+        <div class="usernameBox">로그인해주세요.<div id="toLoginBtn" onclick="toLogin()";>로그인하기</div></div>
         <hr class="line2">
         <div class="menuBox">
             <div class="menuBox1">
@@ -39,7 +40,15 @@
     <div class="contentContainer">
         <div class="menuNameBox">
             <div class="title">장작 관리</div>
+        </div>
+
+        <div class="firewoodBox">
+            <div class="contentBox">
+                <div class="contentTitle">장작 적립 방법</div>
             </div>
+            <div class="firewoodTable"></div>
+            <div class="btnBox"><button id="buttons">적립방법추가</button></div>
+        </div>
     </div>
 
     
@@ -47,4 +56,5 @@
     <script src="../Login.js"></script>
     <script src="../Routing.js"></script>
     <script src="../SideMenu.js"></script>
+    <script src="../Firewood.js"></script> 
 </html>

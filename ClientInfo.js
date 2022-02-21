@@ -28,7 +28,6 @@ const userCount = document.getElementById('userCount');
 const TableArea = document.querySelector('.clientList');
 const clientTable = document.createElement("table");
 
-
 function dataInit(){
     var cnt = 0;
 
@@ -40,7 +39,6 @@ function dataInit(){
 
 function drawTable(){
     testCase.forEach(element => {
-        var cnt = 0;
         const newData = clientTable.insertRow();
         const newData1 = newData.insertCell(0);
         const newData2 = newData.insertCell(1);
@@ -55,15 +53,14 @@ function drawTable(){
         newData3.innerText = element.createdAt;
         newData4.innerText = element.recentLogin;
         newData5.innerText = element.feed;
-        newData6.innerText = element.firewoods;
+        newData6.innerText = element.firewoods;     
         userCount.innerHTML = `전체 유저 ${testCase.length} 명`;
     
         const BUTTON = document.createElement('button');
         BUTTON.id = element.nickname;
-        BUTTON.innerHTML = '삭제';
+        BUTTON.innerHTML = '관리';
         newData7.appendChild(BUTTON);
     
-        cnt++;
     
         TableArea.appendChild(clientTable);
     });
@@ -90,12 +87,16 @@ function tableSetting(){
     let firewoods = document.createElement('td');
     firewoods.innerHTML = "보유 장작";
 
+    let controlBtn = document.createElement('td');
+    controlBtn.innerHTML = "계정관리";
+
     clientTable.appendChild(nickname);
     clientTable.appendChild(id);
     clientTable.appendChild(createdAt);
     clientTable.appendChild(recentLogin);
     clientTable.appendChild(feed);
     clientTable.appendChild(firewoods);
+    clientTable.appendChild(controlBtn);
 }
 
 
@@ -115,6 +116,7 @@ for(const button of BTNS){
             localStorage.removeItem(CLIENT_INFO);
             localStorage.setItem(CLIENT_INFO, JSON.stringify(testCase));
             clientTable.deleteRow(targetIndex);
+            userCount.innerHTML = `전체 유저 ${testCase.length} 명`;
         })
 }
 

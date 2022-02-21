@@ -1,0 +1,83 @@
+.firewoodBox {
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  background-color: white;
+  row-gap: 5%;
+  height: 40%;
+  margin-top: 2.5%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.contentTitle {
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 2%;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+table {
+  height: 80%;
+  width: 100%;
+  border: 1px;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+}
+
+th {
+  font-size: 13px;
+  color: #817e7e;
+  text-align: center;
+  border: 1px;
+  color: black;
+}
+
+tbody {
+  border: 1px;
+  color: black;
+}
+
+.usernameBox {
+  display: flex;
+}
+
+#toLoginBtn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#toLoginBtn:hover {
+  background-color: #c7c2c2;
+}
+
+button {
+  background-color: #427c72;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+
+.btnBox #buttons {
+  width: 10%;
+  float: right;
+  margin-right: 8.7%;
+}
+
+#buttons {
+  border: none;
+  transition: 0.5s;
+}
+
+#buttons:hover {
+  background-color: #346058;
+  transition: 0.5s;
+}
