@@ -20,6 +20,48 @@ let testCase = [
     {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
     {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
     {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'X', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'X', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'X', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'X', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'미발급'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'},
+    {time:'2021/12/31 24:00', id:'IdIdID', NaverId:'IdIdID', IdFlag:'O', firewood:'10,000', couponFlag:'발급완료'}
 ];
 
 
@@ -54,10 +96,7 @@ function drawTable(){
         newData5.innerText = element.firewood;
         newData6.innerText = element.couponFlag;     
         userCount.innerHTML = `전체 유저 ${testCase.length} 명`;
-    
-    
-    
-    
+
         TableArea.appendChild(clientTable);
     });
 }
@@ -96,22 +135,4 @@ function tableSetting(){
 dataInit();
 tableSetting();
 drawTable();
-
-
-const BTNS = document.querySelectorAll('button');
-
-for(const button of BTNS){
-    button.addEventListener('click', () => {
-        if(confirm(`${button.id} 님의 계정을 삭제하시겠습니까?`) == true)
-            data = localStorage.getItem(CLIENT_INFO);
-            targetIndex = JSON.parse(data).findIndex(i => i.nickname == `${button.id}`);
-            var removed = testCase.splice(targetIndex, 1);
-            localStorage.removeItem(CLIENT_INFO);
-            localStorage.setItem(CLIENT_INFO, JSON.stringify(testCase));
-            clientTable.deleteRow(targetIndex);
-            userCount.innerHTML = `전체 유저 ${testCase.length} 명`;
-        })
-}
-
-
 

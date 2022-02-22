@@ -22,7 +22,6 @@ let testCase = [
     {nickname:'김닉네임닉네임20', id:'IdIdID', createdAt:'2022/02/18', recentLogin:'2022/02/18', feed:'500/10', firewoods:500},
 ];
 
-
 const CLIENT_INFO = "ClientInfo";
 const userCount = document.getElementById('userCount');
 const TableArea = document.querySelector('.clientList');
@@ -88,7 +87,7 @@ function tableSetting(){
     firewoods.innerHTML = "보유 장작";
 
     let controlBtn = document.createElement('td');
-    controlBtn.innerHTML = "계정관리";
+    controlBtn.innerHTML = "계정관리";  
 
     clientTable.appendChild(nickname);
     clientTable.appendChild(id);
@@ -104,7 +103,6 @@ dataInit();
 tableSetting();
 drawTable();
 
-
 const BTNS = document.querySelectorAll('button');
 
 for(const button of BTNS){
@@ -119,6 +117,3 @@ for(const button of BTNS){
             userCount.innerHTML = `전체 유저 ${testCase.length} 명`;
         })
 }
-
-
-

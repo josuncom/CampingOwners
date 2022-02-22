@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Camping Owners</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../css/index.css"/>
     <link rel="stylesheet" href="../css/Login.css"/>
     <link rel="stylesheet" href="../css/SideMenu.css"/>
+    <link rel="stylesheet" href="../css/page.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
@@ -40,9 +42,84 @@
     <div class="contentContainer">
         <div class="menuNameBox">
             <div class="title">홈 화면</div>
-            </div>
+        </div>
+        <table id="products" border="1">
+            <caption>product list
+                <form action="" id="setRows">
+                    <p>
+                        showing
+                        <input type="text" name="rowPerPage" value="3">
+                        item per page
+                    </p>
+                </form>
+        
+            </caption>
+        
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Category</th>
+                    <th>Product</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Clothing</td>
+                    <td>Jacket</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>life</td>
+                    <td>dish</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Clothing</td>
+                    <td>shocks</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Clothing</td>
+                    <td>sports</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>shoes</td>
+                    <td>nike</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>shoes</td>
+                    <td>addidas</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bags</td>
+                    <td>backpack</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Clothing</td>
+                    <td>Jacket</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>shoes</td>
+                    <td>bonie</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Clothing</td>
+                    <td>Jacket</td>
+                </tr>
+            </tbody>
+        
+        </table>
+    </div>
 </body>
     <script src="../SideMenu.js"></script>
     <script src="../Login.js"></script>
+    <script src="../page.js"></script>
     <script src="../Routing.js"></script>
 </html>

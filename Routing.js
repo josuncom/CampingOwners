@@ -2,30 +2,31 @@ window.onload = () => {
 const linker = document.querySelectorAll("a");
 const HomeLinker = document.querySelector(".titleBox");
 const TO_LOGIN_BTN = document.getElementById('toLoginBtn');
-const btn = document.getElementById('loginBtn');
+const TO_HOME_BTN = document.getElementById('loginBtn');
 
 linker.forEach((element) => {
-         element.addEventListener("click", (event) => {
-             const pathName = event.target.id;
-             window.history.pushState(undefined,"",`/CampingOwners/pages/${pathName}.html`);
-             history.go(0);
-         });
-        });
+            element.addEventListener("click", (event) => {
+                const pathName = event.target.id;
+                window.history.pushState(undefined,"",`/CampingOwners/pages/${pathName}.html`);
+                history.go(0);
+            });
+            });
 
-         HomeLinker.addEventListener("click", (event) =>{
-             window.history.pushState(undefined,"",'/CampingOwners/pages/Home.html');
-             history.go(0);
-         })
+            HomeLinker.addEventListener("click", (event) =>{
+                window.history.pushState(undefined,"",'/CampingOwners/pages/Home.html');
+                history.go(0);
+            })
 
-         TO_LOGIN_BTN.addEventListener("click", (event) => {
-             window.history.pushState(undefined,"",'/CampingOwners/pages/Login.html');
-             history.go(0);
+            TO_LOGIN_BTN.addEventListener("click", (event) => {
+                window.history.pushState(undefined,"",'/CampingOwners/pages/Login.html');
+                history.go(0);
     })
  }
 
  window.onpopstate = () => {
     history.go(0);
  }
+
 
 
 

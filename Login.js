@@ -4,13 +4,15 @@ const adminId = document.getElementById('idBox'),
     adminPassword = document.getElementById('passwordBox'),
     adminName = document.querySelector(".usernameBox"),
     USERNAME = "currentUser",
+    USER_PW = "currentPassword",
     btn = document.getElementById('loginBtn');
 
 
-function saveName(text){
-    if(text.length > 0) {
-       localStorage.setItem(USERNAME, text);
-       toLogin();
+function saveName(ID, PASSWORD){
+    if(ID.length > 0 && PASSWORD.length > 0) {
+       localStorage.setItem(USERNAME, ID);
+       localStorage.setItem(USER_PW, PASSWORD);
+       toHome();
        history.go(0);
     }
     else{
@@ -21,8 +23,9 @@ function saveName(text){
 function handleSubmit(event){
     event.preventDefault();
     const currentValue = adminId.value;
+    const CurrentPassword = adminPassword.value;
+    saveName(currentValue, CurrentPassword);
     paintGreeting(currentValue);
-    saveName(currentValue);
 }
 
 function askForName(){
@@ -39,6 +42,13 @@ function paintGreeting(text){
         adminName.appendChild(logoutBtn);
     }
 }
+
+function toHome(){
+    window.history.pushState(undefined,"",'/CampingOwners/pages/Home.html');
+    history.go(0);
+ }
+
+
 
 function logOut(){  
     localStorage.removeItem(USERNAME);
